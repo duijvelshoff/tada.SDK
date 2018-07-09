@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyName>tada.SDK</AssemblyName>
+    <PackageId>tada.SDK</PackageId>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VersionPrefix>0.0.1</VersionPrefix>
+    <VersionSuffix>beta</VersionSuffix>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>tada.SDK</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Authors>N. Duijvelshoff</Authors>
+    <Company>duijvelshoff.</Company>
+    <RepositoryUrl>https://github.com/duijvelshoff/tada_sdk</RepositoryUrl>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <AssemblyTitle>tada SDK</AssemblyTitle>
+    <Copyright>duijvelshoff. 2018</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Aggregation\" />
+    <Folder Include="Aggregation\Actions\" />
+    <Folder Include="Aggregation\Objects\" />
+  </ItemGroup>
+</Project>
