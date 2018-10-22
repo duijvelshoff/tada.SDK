@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;netcoreapp2.0</TargetFrameworks>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyName>tada.SDK</AssemblyName>
     <PackageId>tada.SDK</PackageId>
   </PropertyGroup>
   <PropertyGroup>
-    <VersionPrefix>0.0.1</VersionPrefix>
+    <VersionPrefix>0.0.2</VersionPrefix>
     <VersionSuffix>beta</VersionSuffix>
   </PropertyGroup>
   <PropertyGroup>
@@ -16,9 +16,9 @@
   <PropertyGroup>
     <Authors>N. Duijvelshoff</Authors>
     <Company>duijvelshoff.</Company>
-    <RepositoryUrl>https://github.com/duijvelshoff/tada_sdk</RepositoryUrl>
+    <RepositoryUrl>https://github.com/duijvelshoff/tada.SDK</RepositoryUrl>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <AssemblyTitle>tada SDK</AssemblyTitle>
+    <AssemblyTitle>tada.SDK</AssemblyTitle>
     <Copyright>duijvelshoff. 2018</Copyright>
   </PropertyGroup>
   <ItemGroup>
