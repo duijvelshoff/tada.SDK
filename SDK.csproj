@@ -5,9 +5,10 @@
   <PropertyGroup>
     <AssemblyName>tada.SDK</AssemblyName>
     <PackageId>tada.SDK</PackageId>
+    <PackOnBuild>true</PackOnBuild>
   </PropertyGroup>
   <PropertyGroup>
-    <VersionPrefix>0.0.2</VersionPrefix>
+    <VersionPrefix>0.0.3</VersionPrefix>
     <VersionSuffix>beta</VersionSuffix>
   </PropertyGroup>
   <PropertyGroup>
