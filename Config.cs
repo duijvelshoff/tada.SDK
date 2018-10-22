@@ -50,7 +50,7 @@ namespace tada.SDK
                 result.Principal = new Principal
                 {
                     UserName = (string)config["tadaSDK"]["Credentials"]["UserName"],
-                    Password = (string)config["tadaSDK"]["Credentials"]["UserName"]
+                    Password = (string)config["tadaSDK"]["Credentials"]["Password"]
                 };
             }
             catch

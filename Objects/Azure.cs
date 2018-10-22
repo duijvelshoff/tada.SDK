@@ -1,5 +1,4 @@
-﻿using System;
-namespace tada.SDK.Objects
+﻿namespace tada.SDK.Objects
 {
     public class Azure
     {

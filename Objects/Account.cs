@@ -8,6 +8,12 @@ namespace tada.SDK.Objects
         public string AccessRights { get; set; }
         public string IBAN { get; set; }
         public string Description { get; set; }
+
+        public class Connect 
+        {
+            public string Id { get; set; }
+            public string QRCode { get; set; }
+        }
     }
 
     public class AccountsList
