@@ -1,11 +1,8 @@
-﻿using System;
-using System.Globalization;
-using System.Text.RegularExpressions;
-using System.Net.Http;
+﻿using System.Net.Http;
 using Newtonsoft.Json.Linq;
-using tada.SDK.Aggregation.Objects;
+using tada.SDK.Objects;
 
-namespace tada.SDK.Aggregation.Actions
+namespace tada.SDK.Actions
 {
     public class PaymentRequest
     {

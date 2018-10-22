@@ -1,9 +1,8 @@
-﻿using System;
-using System.Net.Http;
+﻿using System.Net.Http;
 using Newtonsoft.Json.Linq;
-using tada.SDK.Aggregation.Objects;
+using tada.SDK.Objects;
 
-namespace tada.SDK.Aggregation.Actions
+namespace tada.SDK.Actions
 {
     public class Payment
     {
@@ -32,7 +31,7 @@ namespace tada.SDK.Aggregation.Actions
             var httpContent = new StringContent(request.ToString());
             httpContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
 
-            var result = client.PostAsync("/api/payment", httpContent).Result;
+            var result = client.PostAsync(SDK.Endpoints.Payment.Execute, httpContent).Result;
             return (int)result.StatusCode;
         }
     }

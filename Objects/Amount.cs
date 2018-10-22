@@ -1,5 +1,5 @@
 ﻿using System;
-namespace tada.SDK.Aggregation.Objects
+namespace tada.SDK.Objects
 {
     public class Amount
     {
